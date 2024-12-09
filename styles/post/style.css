@@ -1,0 +1,7 @@
+.rich-text {
+    & p > code, h2 > code, h3 > code {
+        padding-top: 0.25rem !important;
+        padding-bottom: 0.25rem !important;
+        color:rgb(69 30 17) !important;
+    }
+}

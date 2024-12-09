@@ -1,0 +1,15 @@
+.breadcrumbsLink {
+    @apply text-_451E11 hover:text-_451E11/80;
+  }
+  .share_ul {
+    & li {
+      @apply flex h-6 w-6 items-center justify-center transition duration-300;
+    }
+    &:hover li {
+      @apply opacity-60;
+    }
+    & li:hover {
+      @apply opacity-100;
+    }
+  }
+  
