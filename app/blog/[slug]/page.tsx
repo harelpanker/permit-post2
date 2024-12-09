@@ -6,13 +6,14 @@
 // import SectionDotsBackground from '@/components/SectionDotsBackground';
 import '@/styles/post/style.css';
 
-type PageProps = { params: { slug: string } };
+// type PageProps = { params: { slug: string } };
 
 // export const generateMetadata = async ({ params }: PageProps) => {
 // 	return generateBlogPostMetadata({ params, getPostDetails });
 // };
 
-export default async function PostPage({ params: { slug } }: PageProps) {
+export default async function PostPage() {
+// { params: { slug } }: PageProps
 	// const memberNumber = await getMembersTotalNumber();
 	// const postD = await getPostDetails(slug);
 	// const postData = postD[0];
@@ -22,7 +23,7 @@ export default async function PostPage({ params: { slug } }: PageProps) {
 
 	return (
 		<div>
-			<h1>{slug}</h1>
+			{/* <h1>{slug}</h1> */}
 			{/* <Article post={postData} readMore={readMoreData || []} />
 			<SectionCTA memberNumber={memberNumber} />
 			<SectionDotsBackground /> */}
