@@ -5,6 +5,7 @@ import Section from '@/components/ui/Section';
 import Container from '@/components/ui/Container';
 import { FancyboxWrapper } from '@/components/FancyboxWrapper';
 import { unified } from 'unified';
+// @ts-ignore
 import rehypeParse from 'rehype-parse/lib';
 import rehypeStringify from 'rehype-stringify';
 import { visit } from 'unist-util-visit';
@@ -74,7 +75,7 @@ const ArticleBody: FC<ArticleProps> = ({ post, readMore }) => {
 					{/* content */}
 					<FancyboxWrapper>
 						<div
-							className='rich-text prose-blockquote:border-theme_black prose-th:text-theme_white prose prose-base prose-slate max-w-3xl overflow-hidden transition duration-500 prose-h2:-mt-20 prose-h2:text-balance prose-h2:pt-32 prose-h2:text-_451E11 prose-h3:text-balance prose-h3:text-_451E11 prose-h4:text-balance prose-h4:text-_451E11 prose-p:text-pretty prose-p:text-_451E11 prose-a:text-blue-700 hover:prose-a:text-blue-500 prose-blockquote:text-xl prose-strong:text-inherit prose-code:rounded prose-code:bg-_451E11/10 prose-code:px-1 prose-code:py-1 prose-code:font-medium prose-code:italic prose-code:text-_451E11 prose-pre:p-0 prose-li:text-_451E11 prose-li:marker:text-_451E11 prose-table:w-full prose-table:border-collapse prose-table:border-_451E11 prose-thead:border-none prose-tr:border-_451E11 prose-th:border-_451E11 prose-th:bg-_451E11 prose-th:p-2 prose-td:border-_451E11 prose-td:p-2'
+							className='rich-text prose-blockquote:border-theme_black prose-th:text-theme_white prose prose-base prose-slate prose-h2:-mt-20 prose-h2:text-balance prose-h2:pt-32 prose-h2:text-_451E11 prose-h3:text-balance prose-h3:text-_451E11 prose-h4:text-balance prose-h4:text-_451E11 prose-p:text-pretty prose-p:text-_451E11 prose-a:text-blue-700 hover:prose-a:text-blue-500 prose-blockquote:text-xl prose-strong:text-inherit prose-code:rounded prose-code:bg-_451E11/10 prose-code:px-1 prose-code:py-1 prose-code:font-medium prose-code:italic prose-code:text-_451E11 prose-pre:p-0 prose-li:text-_451E11 prose-li:marker:text-_451E11 prose-table:w-full prose-table:border-collapse prose-table:border-_451E11 prose-thead:border-none prose-tr:border-_451E11 prose-th:border-_451E11 prose-th:bg-_451E11 prose-th:p-2 prose-td:border-_451E11 prose-td:p-2 max-w-3xl overflow-hidden transition duration-500'
 							dangerouslySetInnerHTML={{ __html: content }}
 						/>
 					</FancyboxWrapper>

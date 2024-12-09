@@ -28,8 +28,6 @@ const Navbar = () => {
 		pathname === '/healthcare' ||
 		pathname.includes('/tags');
 
-	const isNoHeader = pathname === '/producthunt' || pathname === '/share-if';
-
 	const handleOpen = () => {
 		setOpen(!open);
 		document.querySelector('body')?.classList.toggle('overflow-hidden');

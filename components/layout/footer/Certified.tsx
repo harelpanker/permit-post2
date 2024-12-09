@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import Image from 'next/image';
 import ProductHuntButton from '@/components/ui/ProductHuntButton';
 
@@ -6,9 +5,7 @@ import hipaaLogo from '@/public/images/footer/hipaa.svg';
 import isoLogo from '@/public/images/footer/iso.svg';
 import socLogo from '@/public/images/footer/soc.svg';
 
-type CertifiedProps = {};
-
-const Certified: FC<CertifiedProps> = ({}) => {
+const Certified = () => {
 	return (
 		<div className='flex flex-col items-center gap-2'>
 			<div className='flex items-center justify-center'>

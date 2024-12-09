@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import Link from 'next/link';
 import styles from '@/styles/post/styles.module.css';
 
 type ArticleBreadcrumbsProps = { postName: string };
