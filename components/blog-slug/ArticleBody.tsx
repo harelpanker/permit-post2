@@ -5,7 +5,7 @@ import Section from '@/components/ui/Section';
 import Container from '@/components/ui/Container';
 import { FancyboxWrapper } from '@/components/FancyboxWrapper';
 import { unified } from 'unified';
-// @ts-expect-error ynal-ha-olam
+
 import rehypeParse from 'rehype-parse/lib';
 import rehypeStringify from 'rehype-stringify';
 import { visit } from 'unist-util-visit';
