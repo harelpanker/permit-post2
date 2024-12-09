@@ -22,6 +22,7 @@ export default async function PostPage({ params: { slug } }: PageProps) {
 
 	return (
 		<div>
+			<h1>{slug}</h1>
 			{/* <Article post={postData} readMore={readMoreData || []} />
 			<SectionCTA memberNumber={memberNumber} />
 			<SectionDotsBackground /> */}
